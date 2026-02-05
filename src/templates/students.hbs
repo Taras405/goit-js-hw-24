@@ -1,0 +1,15 @@
+{{#each students}}
+  <tr data-id="{{id}}">
+    <td>{{id}}</td>
+    <td>{{name}}</td>
+    <td>{{age}}</td>
+    <td>{{course}}</td>
+    <td>{{skills}}</td>
+    <td><a href="mailto:{{email}}">{{email}}</a></td>
+    <td>{{isEnrolled}}</td>
+    <td>
+      <button class="btn-edit" data-id="{{id}}">Редагувати</button>
+      <button class="btn-delete" data-id="{{id}}">Видалити</button>
+    </td>
+  </tr>
+{{/each}}
