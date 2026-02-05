@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-js-hw-24</title>
+    <script type="module" crossorigin src="/Vite/assets/index-DFnchLNt.js"></script>
+    <link rel="stylesheet" crossorigin href="/Vite/assets/index-SYSk3g7S.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Список студентів</h1>
+      <button id="get-students-btn">Отримати студентів</button>
+      <table id="students-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Ім'я</th>
+            <th>Вік</th>
+            <th>Курс</th>
+            <th>Навички</th>
+            <th>Email</th>
+            <th>Статус</th>
+            <th>Дії</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <h2>Додати нового студента</h2>
+      <form id="add-student-form">
+        <label>Ім'я: <input type="text" name="name" required /></label>
+        <label>Вік: <input type="number" name="age" required /></label>
+        <label>Курс: <input type="text" name="course" required /></label>
+        <label>Навички: <input type="text" name="skills" required /></label>
+        <label>Email: <input type="email" name="email" required /></label>
+        <label>Записаний: <input type="checkbox" name="isEnrolled" /></label>
+
+        <button type="submit">Додати студента</button>
+      </form>
+    </div>
+  </body>
+</html>
